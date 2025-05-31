@@ -8,7 +8,7 @@ const About = () => {
       id="About"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2">
-        About{" "}
+        About
         <span className="underline underline-offset-4 decoration-1 under font-light">
           Our Brand
         </span>
@@ -48,7 +48,9 @@ const About = () => {
             Accusantium corporis soluta reprehenderit praesentium a neque qui
             reiciendis repellendus facilis repellat.
           </p>
-          <button className="bg-blue-600 text-white px-8 py-2 rounded">Learn More</button>
+          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+            Learn More
+          </button>
         </div>
       </div>
     </div>

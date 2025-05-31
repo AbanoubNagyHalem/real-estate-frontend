@@ -74,13 +74,15 @@ const Projects = () => {
                 alt={project.title}
                 className="w-full h-auto mb-14"
               />
-              <div className="absolute left-0 ring-0 right-0 bottom-0 flex justify-center">
+              <div className="absolute left-0 right-0 bottom-5 flex justify-center">
                 <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md">
                   <h2 className="text-xl font-semibold text-gray-500">
                     {project.title}
                   </h2>
-                  <p className="text-sm text-gray-500 ">{project.price}</p>{" "}
-                  <span>|</span> {project.location}
+                  <p className="text-sm text-gray-500 ">
+                    {project.price}
+                    <span>|</span> {project.location}
+                  </p>
                 </div>
               </div>
             </div>

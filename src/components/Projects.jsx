@@ -33,9 +33,9 @@ const Projects = () => {
       className="container mx-auto py-4 px-6 md:px-20 lg:px-32 my-20 w-full overflow-hidden"
       id="Projects"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
+      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center ">
         Projects
-        <span className="underline underline-offset-4 decoration-1 under font-light">
+        <span className="underline underline-offset-4 decoration-1 under font-light px-2">
           Completed
         </span>
       </h1>
@@ -81,7 +81,7 @@ const Projects = () => {
                   </h2>
                   <p className="text-sm text-gray-500 ">
                     {project.price}
-                    <span>|</span> {project.location}
+                    <span className="px-1">|</span> {project.location}
                   </p>
                 </div>
               </div>
